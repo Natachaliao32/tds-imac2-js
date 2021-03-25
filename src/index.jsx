@@ -22,6 +22,9 @@ Une application React prend 2 paramètres:
  * Il faudra importer la bonne view pour chaque exercice. Je vous conseille vivement de nommer
  * vos imports en conséquence pour savoir ce que vous utilisez pour render l'app.
  */
+
+// test test //
+
 ReactDOM.render(
   <React.StrictMode>
     <ExerciseFourView />
