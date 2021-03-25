@@ -17,7 +17,17 @@ export const CreateElement = () => React.createElement(
 );
 
 // TODO
-export const CreateElementAsJsx = () => null;
+export const CreateElementAsJsx = () => {
+  return (
+    <main>
+      <header>Trying react</header>
+      <section>
+        <p>Hi !</p>
+        <p>React is a JS component library</p>
+      </section>
+    </main>
+  )
+};
 
 export const Jsx = () => (
   <figure>
@@ -30,4 +40,9 @@ export const Jsx = () => (
 // watch the example at the top of the file
 
 // TODO
-export const JsxAsCreateElement = () => null;
+export const JsxAsCreateElement = () => React.createElement(
+  'figure', 
+  null, 
+  React.createElement('figcaption', null, 'Hi !'),
+  React.createElement('img', {src: "https://example.com/image.jpg"})
+);

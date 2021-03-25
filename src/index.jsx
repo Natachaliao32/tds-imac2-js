@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-
+// import App from './App';
+import { ExerciseFourView } from './ex4/index';
 /*
 La fonction `ReactDOM.render` est la fonction qui sert à dessiner l'application
 javascript sur le navigateur et à la rendre interactive.
@@ -24,7 +24,7 @@ Une application React prend 2 paramètres:
  */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ExerciseFourView />
   </React.StrictMode>,
   document.getElementById('root'),
 );
