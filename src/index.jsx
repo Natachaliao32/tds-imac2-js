@@ -23,8 +23,6 @@ Une application React prend 2 paramètres:
  * vos imports en conséquence pour savoir ce que vous utilisez pour render l'app.
  */
 
-// test test //
-
 ReactDOM.render(
   <React.StrictMode>
     <ExerciseFourView />
